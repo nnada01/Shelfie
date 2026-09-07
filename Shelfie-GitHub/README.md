@@ -130,9 +130,6 @@ api/shelfie.sql
 
 ## Security notes
 
-- Do not commit `android/local.properties`.
-- Do not commit production database passwords.
-- Do not commit private API keys or other credentials.
 - The repository is configured to ignore common Android build artifacts and signing files.
 - The included API configuration is intended for local development.
 
@@ -140,6 +137,3 @@ api/shelfie.sql
 
 See `docs/SHELFIE_GUIDE.md` for a more detailed explanation of the Android source code and project components.
 
-## Screenshots
-
-Add screenshots of the main screens here when publishing the project as a portfolio piece.
