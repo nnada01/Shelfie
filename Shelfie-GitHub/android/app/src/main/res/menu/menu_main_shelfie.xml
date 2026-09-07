@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_theme"
+        android:icon="@drawable/ic_moon"
+        android:title="@string/menu_theme_toggle"
+        app:iconTint="@color/toolbar_content"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_admin_dashboard"
+        android:icon="@drawable/ic_admin_dashboard_24"
+        android:title="@string/menu_admin_dashboard"
+        android:visible="false"
+        app:iconTint="@color/toolbar_content"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/menu_profile" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/menu_logout" />
+</menu>

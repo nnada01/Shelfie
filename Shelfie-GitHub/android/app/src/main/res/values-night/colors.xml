@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="auth_primary_button_text">@color/black</color>
+
+    <!-- Dark counterpart: calmer greens and warmer neutrals -->
+    <color name="primary">#8BBFA4</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#2E4036</color>
+    <color name="on_primary_container">#CFE8D7</color>
+
+    <color name="secondary">#C9B199</color>
+    <color name="on_secondary">#2D1C0F</color>
+    <color name="secondary_container">#3F3329</color>
+    <color name="on_secondary_container">#E6D6C4</color>
+
+    <color name="tertiary">#D9BD73</color>
+    <color name="on_tertiary">#332400</color>
+    <color name="tertiary_container">#4A3A0B</color>
+    <color name="on_tertiary_container">#FAE8B0</color>
+
+    <color name="background">#0F0F0D</color>
+    <color name="on_background">#FFFFFF</color>
+    <color name="surface">#151613</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="surface_variant">#2F332D</color>
+    <color name="on_surface_variant">#B8B8B0</color>
+    <color name="outline">#8A8275</color>
+    <color name="outline_variant">#3A3E35</color>
+    <color name="overflow_background">#1D211C</color>
+
+    <color name="error">#FFB4AB</color>
+    <color name="on_error">#690005</color>
+
+    <color name="book_card">#2C3D34</color>
+    <color name="splash_background">#FCF5EB</color>
+
+    <!-- Toolbar title + icons on green bar: black in dark mode -->
+    <color name="toolbar_content">#FF000000</color>
+    <color name="main_header_greeting">#FF000000</color>
+
+    <color name="main_streak_label">#FF000000</color>
+    <color name="main_streak_days">#FFFFFF</color>
+    <color name="main_reading_goal_bar_fill">#FF000000</color>
+    <color name="main_reading_goal_bar_track">#40000000</color>
+    <color name="main_add_book_text">#FF000000</color>
+    <color name="text_highlight">#668BBFA4</color>
+
+    <!-- Mint primary FAB in dark mode: dark text/icon reads better than white -->
+    <color name="journal_fab_content">@color/black</color>
+
+    <!-- Google Books search on header panel: soft mint (reads on dark green primary) -->
+    <color name="google_books_search_button_bg">#CFE8D7</color>
+    <color name="google_books_search_button_text">#0F261B</color>
+    <color name="google_books_search_button_ripple">#400F261B</color>
+</resources>

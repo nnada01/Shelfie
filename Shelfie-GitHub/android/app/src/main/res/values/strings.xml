@@ -1,0 +1,267 @@
+<resources>
+    <!-- Branding: add res/drawable/icon_simple and icon_slogan (.jpg/.png/.webp). Reference: @drawable/icon_simple (no extension). -->
+    <string name="app_name">Shelfie</string>
+    <string name="cd_app_logo">Shelfie logo</string>
+    <string name="cd_app_slogan">Shelfie slogan</string>
+
+    <string name="login_subtitle">Sign in to your shelf</string>
+    <string name="signup_subtitle">Create your reader profile</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="action_login">Sign in</string>
+    <string name="action_create_account">Create account</string>
+    <string name="link_no_account">New here? Create an account</string>
+    <string name="link_have_account">Already have an account? Log in</string>
+
+    <string name="error_network">Cannot reach the server. Please try again</string>
+    <string name="error_network_url">Trying: %1$s</string>
+    <string name="error_timeout">Request timed out. Try again.</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+    <string name="signup_success">Account created</string>
+
+    <string name="welcome_fmt">Welcome, %1$s</string>
+    <string name="main_quote_label">Google Books</string>
+    <string name="hint_google_books_search">Title, author, or keyword</string>
+    <string name="btn_google_books_search">Search</string>
+    <string name="google_books_open_preview">Open preview</string>
+    <string name="google_books_loading">Loading book…</string>
+    <string name="google_books_none">No books found.</string>
+    <string name="google_books_parse_error">Could not read book data.</string>
+    <string name="google_books_network">Could not load book data.</string>
+    <string name="google_books_enter_query">Enter a search term</string>
+    <string name="main_streak_label">Reading streak</string>
+    <string name="main_streak_days">%1$d day(s)</string>
+    <string name="search_hint">Search title or author</string>
+    <string name="main_search_prompt">Search books here</string>
+    <string name="filter_label">Status</string>
+    <string name="title_add_book">Add or edit book</string>
+    <string name="title_journal_screen">Reading journal</string>
+    <string name="title_add_journal">Add or edit entry</string>
+    <string name="hint_book_title">Book title</string>
+    <string name="hint_author">Author</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_total_pages">Total pages</string>
+    <string name="hint_current_page">Current page</string>
+    <string name="label_reading_status">Reading status</string>
+    <string name="label_favorite_book">Mark as favorite</string>
+    <string name="label_book_rating">Rating</string>
+    <string name="label_genres">Genres (choose multiple)</string>
+    <string name="label_recommended">Would you recommend this book?</string>
+    <string name="recommended_yes">Yes</string>
+    <string name="recommended_no">No</string>
+    <string name="genre_fiction">Fiction</string>
+    <string name="genre_mystery">Mystery</string>
+    <string name="genre_romance">Romance</string>
+    <string name="genre_fantasy">Fantasy</string>
+    <string name="genre_biography">Biography</string>
+    <string name="hint_journal_title">Entry title</string>
+    <string name="hint_journal_body">Write your thoughts</string>
+    <string name="label_mood">Mood</string>
+    <string name="btn_add_book">Add book</string>
+    <string name="btn_journal">Journal</string>
+    <string name="btn_new_journal_entry">New entry</string>
+    <string name="btn_favorites_off">Favorites</string>
+    <string name="btn_favorites_on">All books</string>
+
+    <string name="menu_web">Books on the web</string>
+    <string name="menu_dial">Dial</string>
+    <string name="menu_call_direct">Call support (direct)</string>
+    <string name="menu_map">Bookstores map</string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_profile">Edit profile</string>
+    <string name="menu_theme_toggle">Theme</string>
+    <string name="menu_admin_dashboard">Admin</string>
+    <string name="menu_light_mode">Light mode</string>
+    <string name="menu_dark_mode">Dark mode</string>
+    <string name="menu_save">Save</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_settings">Settings</string>
+    <string name="settings_subtitle">Customize your Shelfie experience</string>
+    <string name="settings_notifications_title">Reading reminders</string>
+    <string name="settings_notifications_desc">Keep me motivated with reminder notifications.</string>
+    <string name="settings_biometric_title">Biometric lock</string>
+    <string name="settings_biometric_desc">Require biometric unlock before opening Journal.</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_desc">Switch between light and dark reading ambience.</string>
+    <string name="settings_theme_toggle">Enable dark mode</string>
+    <string name="settings_privacy_title">Privacy</string>
+    <string name="settings_privacy_desc">Your books and journal stay on your own server setup.</string>
+
+    <string name="settings_reading_data_section">Reading &amp; data</string>
+    <string name="settings_reading_data_desc">Statistics, backups, and sharing.</string>
+    <string name="settings_discover_section">Discover &amp; support</string>
+    <string name="settings_discover_desc">Web shortcuts and phone options.</string>
+
+    <string name="support_phone_number" translatable="false">+9615304050</string>
+
+    <string name="cd_search_web">Search this book on the web</string>
+    <string name="cd_favorite">Toggle favorite</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_export">Export to file</string>
+    <string name="dialog_delete_book_title">Remove this book?</string>
+    <string name="dialog_delete_book_body">This will delete the book from your shelf. You can add it again later.</string>
+    <string name="dialog_delete_journal_title">Delete journal entry?</string>
+    <string name="dialog_delete_journal_body">The writing will be removed. Consider exporting before deleting.</string>
+    <string name="dialog_positive_delete">Delete</string>
+    <string name="dialog_negative_cancel">Keep it</string>
+    <string name="toast_book_deleted">Book deleted</string>
+    <string name="toast_book_delete_failed">Delete failed. Please try again.</string>
+    <string name="toast_journal_deleted">Journal deleted</string>
+    <string name="toast_journal_delete_failed">Delete failed. Please try again.</string>
+    <string name="toast_invalid_form">Please fill in the required fields.</string>
+    <string name="error_book_title_required">Title is required.</string>
+    <string name="error_book_author_required">Author is required.</string>
+    <string name="error_book_category_required">Category is required.</string>
+    <string name="error_total_pages_required">Total pages is required.</string>
+    <string name="error_total_pages_positive">Total pages must be greater than 0.</string>
+    <string name="error_total_pages_invalid">Enter a valid number for total pages.</string>
+    <string name="error_current_page_invalid">Enter a valid current page.</string>
+    <string name="error_current_page_gt_total">Current page cannot be greater than total pages.</string>
+    <string name="error_rating_required">Please add a rating (use the stars).</string>
+    <string name="error_genres_required">Pick at least one genre.</string>
+    <string name="toast_network_problem">Cannot reach the server. Check your connection and try again.</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_profile_onboarding">Complete your profile</string>
+    <string name="toast_onboarding_save_profile">Please save your profile to continue.</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_country">Country</string>
+    <string name="action_add_photo">Add a profile picture</string>
+    <string name="action_remove_profile_photo">Remove profile photo</string>
+    <string name="dialog_remove_profile_photo_title">Remove profile photo?</string>
+    <string name="dialog_remove_profile_photo_body">Your picture will be cleared after you save. You can add a new one anytime.</string>
+    <string name="dialog_positive_remove">Remove</string>
+    <string name="toast_profile_photo_removed">Photo removed. Save your profile to apply.</string>
+    <string name="profile_photo_source_title">Add profile photo</string>
+    <string name="profile_photo_take_picture">Take a picture now</string>
+    <string name="profile_photo_choose_gallery">Choose from gallery</string>
+    <string name="permission_camera_denied">Camera permission is needed to take a photo.</string>
+    <string name="permission_gallery_denied">Photo access is needed to pick from your gallery.</string>
+    <string name="cd_profile_photo">Profile photo</string>
+    <string name="toast_profile_loaded">Profile loaded</string>
+    <string name="toast_profile_saved">Profile updated</string>
+    <string name="toast_profile_failed">Could not update profile right now.</string>
+    <string name="error_first_name_required">First name is required.</string>
+    <string name="error_last_name_required">Last name is required.</string>
+    <string name="error_birthday_required">Birthday is required.</string>
+    <string name="error_country_required">Country is required.</string>
+
+    <string name="toast_login_success">Signed in successfully.</string>
+    <string name="error_login_parsing">Could not read the server response.</string>
+    <string name="error_field_email_empty">Email cannot be empty.</string>
+    <string name="error_field_password_empty">Password cannot be empty.</string>
+    <string name="error_field_first_name_empty">First name cannot be empty.</string>
+    <string name="error_field_last_name_empty">Last name cannot be empty.</string>
+
+    <string name="password_requirements_title">Password must include:</string>
+    <string name="password_req_met_marker">✓</string>
+    <string name="password_req_unmet_marker">○</string>
+    <string name="password_rule_row">%1$s %2$s</string>
+    <string name="password_rule_length">At least 8 characters</string>
+    <string name="password_rule_upper">One uppercase letter</string>
+    <string name="password_rule_lower">One lowercase letter</string>
+    <string name="password_rule_special">One special character (not a letter, digit, or space)</string>
+    <string name="error_password_requirements">Choose a password that meets every requirement below.</string>
+    <string name="hint_current_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_password">Confirm new password</string>
+    <string name="title_change_password">Change password</string>
+    <string name="change_password_subtitle">Use a strong password you do not reuse elsewhere.</string>
+    <string name="action_save_new_password">Update password</string>
+    <string name="error_confirm_password_mismatch">New password and confirmation do not match.</string>
+    <string name="error_current_password_empty">Enter your current password.</string>
+    <string name="toast_password_updated">Password updated.</string>
+    <string name="toast_password_update_failed">Could not update password. Check your current password and try again.</string>
+    <string name="settings_account_section">Account</string>
+    <string name="settings_change_password_desc">Change the password you use to sign in to Shelfie.</string>
+    <string name="settings_delete_account_desc">Permanently remove your Shelfie account and all books, journals, and reading data.</string>
+    <string name="action_change_password">Change password</string>
+    <string name="action_delete_account">Delete account</string>
+    <string name="dialog_delete_account_title">Delete account?</string>
+    <string name="dialog_delete_account_body">This cannot be undone. Enter your password to confirm.</string>
+    <string name="hint_password_confirm_delete">Your password</string>
+    <string name="dialog_positive_delete_account">Delete forever</string>
+    <string name="toast_account_deleted">Your account was deleted.</string>
+    <string name="toast_account_delete_failed">Could not delete account.</string>
+    <string name="error_invalid_email">Enter a valid email address.</string>
+
+    <string name="toast_no_browser">No browser app found.</string>
+    <string name="toast_no_maps">No maps app found.</string>
+    <string name="toast_no_dial">No dialer app found.</string>
+    <string name="toast_call_permission_denied">Call permission denied.</string>
+
+    <string name="journal_biometric_title">Journal access</string>
+    <string name="journal_biometric_subtitle">Authenticate to open your private journal.</string>
+    <string name="error_biometric_none_enrolled">Add a screen lock or fingerprint in device settings to use the journal lock.</string>
+    <string name="error_biometric_unavailable">Biometric authentication is not available on this device.</string>
+    <string name="toast_journal_exported">Journal exported.</string>
+    <string name="toast_journal_export_failed">Export failed.</string>
+
+    <string name="notification_reading_title">Shelfie reminder</string>
+    <string name="notification_reading_text">Time to read a few pages today.</string>
+    <string name="toast_notifications_permission_denied">Notification permission is required for reading reminders.</string>
+
+    <string name="book_progress_fmt">%1$d / %2$d pages</string>
+
+    <string-array name="book_status_array">
+        <item>Reading</item>
+        <item>Completed</item>
+        <item>Paused</item>
+        <item>Wishlist</item>
+    </string-array>
+
+    <string-array name="filter_status_array">
+        <item>All</item>
+        <item>Reading</item>
+        <item>Completed</item>
+        <item>Paused</item>
+        <item>Wishlist</item>
+    </string-array>
+
+    <string-array name="mood_array">
+        <item>Happy</item>
+        <item>Calm</item>
+        <item>Neutral</item>
+        <item>Sad</item>
+        <item>Excited</item>
+        <item>Stressed</item>
+    </string-array>
+
+    <string name="title_reading_stats">Reading statistics</string>
+    <string name="stats_section_monthly_finished">Books finished by month</string>
+    <string name="stats_section_genres">Genre breakdown</string>
+    <string name="stats_section_streak">Streak history</string>
+    <string name="stats_summary_fmt">Total pages across your shelf (capped per book): %1$d\nCurrent streak: %2$d day(s)</string>
+    <string name="stats_streak_detail_fmt">Days you opened Shelfie in the last 90 days: %1$d</string>
+    <string name="stats_streak_footer_legacy">\n\nNote: %1$d finished book(s) have no completion date yet; finish dates appear after you run the database migration and mark books complete again.</string>
+    <string name="stats_empty_monthly">No dated finished books yet. Mark a book Completed to build this chart.</string>
+    <string name="stats_empty_genres">No genres yet. Add categories or genre tags to your books.</string>
+
+    <string name="menu_reading_stats">Reading statistics</string>
+    <string name="menu_export_backup">Export shelf &amp; journal</string>
+
+    <string name="export_choose_format">Export format</string>
+    <string name="export_json">JSON</string>
+    <string name="export_csv">CSV</string>
+    <string name="export_share_title">Share Shelfie backup</string>
+    <string name="toast_export_failed">Export failed</string>
+
+    <string name="toast_no_share_handler">No app found to share with</string>
+
+    <string name="main_reading_goal_label">Reading goal</string>
+    <string name="main_reading_goal_none">Set a goal in Profile (pages/week or books/year).</string>
+    <string name="main_reading_goal_pages_week_fmt">Pages this week: %1$d / %2$d</string>
+    <string name="main_reading_goal_books_year_fmt">Books finished this year: %1$d / %2$d</string>
+
+    <string name="profile_reading_goal_section">Reading goal</string>
+    <string name="profile_reading_goal_type">Reading goal type</string>
+    <string name="hint_reading_goal_value">Goal target (number)</string>
+
+    <string-array name="reading_goal_type_labels">
+        <item>None</item>
+        <item>Pages per week</item>
+        <item>Books per year</item>
+    </string-array>
+</resources>

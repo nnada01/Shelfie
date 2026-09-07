@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/screen_padding_small"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_book_card"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="?attr/colorOnSurface"
+            tools:text="The Name of the Wind" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBookFavorite"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/cd_favorite"
+            android:padding="2dp"
+            android:visibility="gone"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            app:tint="?attr/colorPrimary"
+            tools:srcCompat="@android:drawable/btn_star_big_on" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        tools:text="Patrick Rothfuss" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBookStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_pill_status"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:textAppearance="?attr/textAppearanceLabelMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            tools:text="Reading" />
+
+        <TextView
+            android:id="@+id/tvBookProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            tools:text="120 / 400 pages" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBookItem"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progress="35"
+        android:progressTint="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnWebsiteBook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_search_web"
+            app:srcCompat="@drawable/ic_action_search"
+            tools:srcCompat="@drawable/ic_action_search" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnEditBook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_edit"
+            app:srcCompat="@drawable/ic_action_edit"
+            tools:srcCompat="@drawable/ic_action_edit" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnDeleteBook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_delete"
+            app:srcCompat="@drawable/ic_action_delete"
+            tools:srcCompat="@drawable/ic_action_delete" />
+    </LinearLayout>
+</LinearLayout>

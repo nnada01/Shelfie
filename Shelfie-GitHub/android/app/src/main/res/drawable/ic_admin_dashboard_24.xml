@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Bar chart / dashboard motif (matches Shelfie toolbar icon style). -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,18h2v4H4V18zM10,10h2v12h-2V10zM16,14h2v8h-2V14zM19,4h2v18h-2V4zM4,4h2v10H4V4z" />
+</vector>

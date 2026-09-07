@@ -1,0 +1,4 @@
+# Copy this file to local.properties on your machine.
+# Replace the SDK path and API key with your own values.
+sdk.dir=/path/to/your/Android/sdk
+GOOGLE_BOOKS_API_KEY=your_google_books_api_key

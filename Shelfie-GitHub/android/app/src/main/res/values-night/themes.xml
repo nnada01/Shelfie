@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Shelfie" parent="Base.Theme.Shelfie">
+        <item name="loginToolbarLogo">@drawable/icon_dark_toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.Shelfie.PopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/overflow_background</item>
+        <item name="android:popupBackground">@drawable/bg_overflow_popup</item>
+        <item name="android:textColorPrimary">@color/on_background</item>
+        <item name="popupMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+        <item name="android:popupMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+    </style>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Shelfie" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container</item>
+
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <item name="android:textColorHighlight">@color/text_highlight</item>
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="android:colorControlActivated">@color/primary</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">@bool/window_light_status_bar</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">@bool/window_light_nav_bar</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+        <item name="materialCardViewStyle">@style/Widget.Shelfie.Card</item>
+        <item name="popupMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+        <item name="android:popupMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+        <item name="android:actionOverflowMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+
+        <item name="loginToolbarLogo">@drawable/icon_light_toolbar</item>
+    </style>
+
+    <style name="Theme.Shelfie" parent="Base.Theme.Shelfie" />
+
+    <!-- Splash always uses beige (not DayNight), so dark app mode does not black out the screen -->
+    <style name="Theme.Shelfie.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Widget.Shelfie.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/toolbar_content</item>
+        <item name="subtitleTextColor">@color/toolbar_content</item>
+        <item name="android:background">@drawable/bg_toolbar</item>
+        <item name="navigationIconTint">@color/toolbar_content</item>
+        <item name="popupTheme">@style/ThemeOverlay.Shelfie.PopupMenu</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="ThemeOverlay.Shelfie.PopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/overflow_background</item>
+        <item name="android:popupBackground">@drawable/bg_overflow_popup</item>
+        <item name="android:textColorPrimary">@color/on_background</item>
+        <item name="popupMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+        <item name="android:popupMenuStyle">@style/Widget.Shelfie.PopupMenu</item>
+    </style>
+
+    <style name="Widget.Shelfie.PopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/bg_overflow_popup</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Shelfie.PopupListView</item>
+    </style>
+
+    <style name="Widget.Shelfie.PopupListView" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="Widget.Shelfie.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="strokeColor">@color/outline_variant</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.Shelfie.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxStrokeColor">@color/box_stroke_shelfie</item>
+        <item name="hintTextColor">@color/on_surface_variant</item>
+        <item name="startIconTint">@color/on_surface_variant</item>
+    </style>
+
+    <style name="Widget.Shelfie.RatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">?attr/colorPrimary</item>
+        <item name="android:progressBackgroundTint">?attr/colorOutlineVariant</item>
+        <item name="android:secondaryProgressTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Shelfie.Button.Primary" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Shelfie.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <!-- Beige (light) / mint cream (night): Google Books search on primary header panel -->
+    <style name="Widget.Shelfie.Button.GoogleBooksSearch" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="backgroundTint">@color/google_books_search_button_bg</item>
+        <item name="android:textColor">@color/google_books_search_button_text</item>
+        <item name="rippleColor">@color/google_books_search_button_ripple</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Shelfie.Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Shelfie.ProfileAvatar" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <style name="Widget.Shelfie.Fab.Extended" parent="Widget.Material3.ExtendedFloatingActionButton.Icon.Primary">
+        <item name="cornerRadius">18dp</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF121212</color>
+    <!-- Login / signup primary button label only; night uses black (see values-night). -->
+    <color name="auth_primary_button_text">@color/on_primary</color>
+
+    <!-- Library palette: forest ink + parchment + brass accent -->
+    <color name="primary">#2F4736</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D7E7DC</color>
+    <color name="on_primary_container">#0F261B</color>
+
+    <color name="secondary">#6E4A32</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#8C395040</color>
+    <color name="on_secondary_container">#2A160A</color>
+
+    <color name="tertiary">#C18E3A</color>
+    <color name="on_tertiary">#1F1300</color>
+    <color name="tertiary_container">#FFE4B3</color>
+    <color name="on_tertiary_container">#3A2400</color>
+
+    <color name="background">#FCF5EB</color>
+    <color name="on_background">#1F1A14</color>
+    <color name="surface">#FCF5EB</color>
+    <color name="on_surface">#201A15</color>
+    <color name="surface_variant">#E2D8CB</color>
+    <color name="on_surface_variant">#53473C</color>
+    <color name="outline">#8A7B6C</color>
+    <color name="outline_variant">#D5C8B7</color>
+    <color name="overflow_background">#FCF5EF</color>
+    <color name="book_card">#EEDCC3</color>
+    <color name="splash_background">#FCF5EB</color>
+    <!-- Progress / accents on splash: same in light & dark app mode (splash stays beige) -->
+    <color name="splash_progress_tint">#201A15</color>
+
+    <color name="error">#BA1A1A</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- Toolbar title + icons on green bar: beige like screen background (light mode) -->
+    <color name="toolbar_content">@color/background</color>
+    <color name="text_highlight">#332F4736</color>
+
+    <!-- Welcome + quote on green header panel -->
+    <color name="main_header_greeting">#FFFFFF</color>
+
+    <!-- Main screen: streak label on green panel; Add Book label on primary button -->
+    <color name="main_streak_label">#FFFFFF</color>
+    <!-- Day count pill only (e.g. "0 day(s)"): dark green in light mode -->
+    <color name="main_streak_days">@color/primary</color>
+    <!-- Reading goal bar on green header panel (avoid default pink track) -->
+    <color name="main_reading_goal_bar_fill">#FFFFFF</color>
+    <color name="main_reading_goal_bar_track">#4DFFFFFF</color>
+    <color name="main_add_book_text">#FFFFFF</color>
+
+    <!-- Journal FAB: label + icon on primary background -->
+    <color name="journal_fab_content">@color/on_primary</color>
+
+    <!-- Google Books search on green home panel: warm beige (light mode) -->
+    <color name="google_books_search_button_bg">#E8DCC4</color>
+    <color name="google_books_search_button_text">#1F1810</color>
+    <color name="google_books_search_button_ripple">#402A2216</color>
+</resources>
