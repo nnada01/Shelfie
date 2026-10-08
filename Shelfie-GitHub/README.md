@@ -24,7 +24,7 @@ Shelfie is an Android reading companion app that helps users manage their person
 
 ### Settings
 
-![Shelfie Settings Screen](screenshots/setting.png)
+![Shelfie Settings Screen](screenshots/settings.png)
 
 ### Add a Book
 
